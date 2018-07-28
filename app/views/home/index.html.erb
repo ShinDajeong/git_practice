@@ -1,0 +1,5 @@
+<% @cats.each do |h| %>
+    <p><%= h.name %></p>
+<% end %>
+<%= paginate @cats %>
+<!--paginate => 카미나리가 제공하는 메소드-->
