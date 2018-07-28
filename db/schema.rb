@@ -11,9 +11,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20180728024607) do
 
   create_table "cats", force: :cascade do |t|
+=======
+ActiveRecord::Schema.define(version: 20180728024606) do
+
+  create_table "danches", force: :cascade do |t|
+>>>>>>> 6e56708c38fbd994206ecb20d0672682a3d42d53
     t.string   "name"
     t.integer  "numb"
     t.datetime "created_at", null: false
